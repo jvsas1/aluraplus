@@ -1,0 +1,328 @@
+
+
+body{
+
+    background-color: black;
+
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.principal{
+    background-image: url(Background.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.container{
+    height: 100vh;
+}
+
+.containerb{
+    height: 60vh;
+}
+
+.containerc{
+    height:30vh;
+}
+
+.info1{
+    display: flex;
+    flex-direction: column;
+    color:white;
+    position: absolute;
+    width: 560px;
+    left: 54px;
+    top: 125px;
+}
+
+.t1{
+    font-family:'Inter';
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 34px;
+    letter-spacing: 0em;
+    text-align: center;
+
+    
+}
+.combo{
+    padding-top: 10px;
+    width: 348px;
+    height: 100px;
+    align-self: center;
+}
+
+.buttons{
+    padding-top: 10px;
+    display: grid;
+    gap: 10px;
+    height: 110px;
+    
+}
+
+
+.button1,.button2{
+    border-radius: 10px;
+    
+}
+
+.button1:hover,.button2:hover{
+    background-color: rgb(188, 148, 92);
+    opacity: 10;
+    cursor: pointer;
+}
+.button1{
+
+    background-color:royalblue;
+    color:white;
+    border: none;
+    
+}
+
+.texto-botao1,.texto-botao2{
+    font-family:'Inter';
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    border: none;
+    background:none;
+    position: relative;
+    left: 31%;
+    top: 30%;
+}
+
+.link-alura{
+    text-decoration: none;
+    width: 560px;
+}
+
+.button2{
+    font-family:'Inter';
+    background:none;
+    color:white;
+    border:solid white;  
+    border-width: 1px;
+}
+
+.preço-info{
+    font-family:'Inter';
+    padding-top:10px;
+    color: #C0C0C0;
+    font-size:12px;
+    text-align: center;
+}
+
+.info2{
+
+    font-family:'Inter';
+    color: white;
+    display: flex;
+    align-items: center;
+    
+}
+
+.plat{
+    position: relative;
+    left: 120px;
+}
+
+.texto-assista{
+    position: relative;
+    display: grid;
+    width: 588px;
+    height: 114px;
+    left: 190px;
+    
+
+}
+
+.cont-info2{
+    bottom: 50px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    left: 100px;
+}
+
+.t2{
+
+    font-weight: 800;
+    font-family:'Inter';
+    font-size: 60px;
+}
+
+.texto-ass1{
+    font-family:'Inter';
+    font-size: 18px;
+    color: #C0C0C0;
+}
+
+.cont-info3{
+    top:100px;
+    position: relative;
+    left: 300px;
+    display: flex;
+    align-items: center;
+    font-family: "Inter";
+}
+
+.texto-ass2{
+    
+    position: relative;
+    font-family:'Inter';
+    font-size: 18px;
+    width: 670px;
+
+    
+}
+
+.texto-combo{
+
+    position: relative;
+    right: 90px;    
+    color:#C0C0C0;
+    font-family: "Inter";
+}
+
+.button3{
+
+    padding-top: 10px;
+
+}
+
+.texto-botao3{
+    font-family: "Inter";
+    position: relative;
+    top: 10px;
+    border-radius: 10px;
+    width: 162.68px;
+    height: 56px;
+    background-color: royalblue;
+    color: white;
+    
+}
+
+.texto-botao3:hover{
+    background-color: rgb(188, 148, 92);
+    
+}
+
+
+
+.cont-info2{
+    display: flex;
+    align-items: center;
+    position: relative;
+    left: 100px;}
+
+
+ .cont-info4{
+    font-family: "Inter";
+    top:100px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    left: 170px;
+
+}
+
+.baixar-cursos{
+    width: 600px;
+    padding-left:15px;
+    color:white;
+}
+
+.t3{
+
+    font-size: 55px;
+    font-family:'Inter';
+    font-weight: 900;
+}
+
+.texto-ass3{
+    padding-top:10px;
+    font-family: "Inter";
+    color:#C0C0C0;
+    font-size:20px;
+}
+
+.titulo5{
+    position: relative;
+    top: 80px;
+    color: rgb(255, 255, 255);
+    font-family: "Inter";
+    font-size: 35px;
+    text-align: center;
+    font-weight: bold;
+    
+}
+
+.cont-info5{
+    font-family: "Inter";
+    position: relative;
+    top: 100px;
+    justify-content: center;
+    display: flex;
+    color:white;
+    text-align: center;
+    font-weight: 900;
+    font-size: 30px;
+}
+
+.TV,.PC,.Cel-tablet{
+    font-family: "Inter";
+    font-size: 20px;
+}
+
+.logo-alura{
+    display: flex;
+    justify-content: center;
+}
+
+.containerc{
+    position: relative;
+    top:30px;
+    color:white;
+    text-align: center;
+    
+}
+.footer1{
+    font-family: "Inter";
+    text-decoration: none;
+    position: relative;
+    top: 35px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    color:#C0C0C0;
+    font-size: 15px;
+}
+
+.texto-footer{
+    color:white; ;
+    text-decoration: none;
+}
+
+.texto-footer:hover{
+    color:beige;
+}
+
+.marca{
+    font-family: "Inter";
+    position: relative;
+    top: 60px;
+    font: 10px;
+    color:#C0C0C0;
+    text-align: center;
+    font-size: 12px;
+}
+
+.sobre{
+    position:relative;
+    top:20px;
+}
+
